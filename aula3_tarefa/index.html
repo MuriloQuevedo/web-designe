@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarefa</title>
 </head>
+
 <body>
-    <h1>Formulário</h1>
+    <h1>Acesso</h1>
     <form action="https://www.w3schools.com/action_page.php">
-       
-    <label for="Data">Data: </label><br> 
-    <input type="date" id="data" name="data"> <br>
 
-    <label for="Usuário">Usuário: </label><br>
-    <input type="text" id="Usuário" name="Usuário"><br>
+        <label for="Data">Data: </label><br>
+        <input type="date" id="data" name="data"> <br>
 
-    <label for="Senha">Senha: </label><br>
-    <input type="password" id="Senha" name="senha"><br>
+        <label for="Usuário">Usuário: </label><br>
+        <input type="text" id="Usuário" name="Usuário"><br>
 
-    <input type="submit">
-    
+        <label for="Senha">Senha: </label><br>
+        <input type="password" id="Senha" name="senha"><br>
+
+        <input type="submit" value="Enviar">
+
     </form>
-    
+    <hr>
+    <h1>Dados Pessoais</h1>
+    <form action="https://www.w3schools.com/action_page.php">
+
+        <label for="Nome">Nome: </label><br>
+        <input type="text" id="Nome" name="Nome"><br>
+
+        <label for="Endereço">Endereço: </label> <br>
+        <input type="number" id="Endereço" name="Endereço"><br>
+
+        <label for="Complemento">Complemento: </label> <br>
+        <input type="text" id="Complemento" name="Complemento"><br>
+
+        <input list="Cidades" name="Cidades"><br>
+        <datalist id="Cidades"
+        
+        </form>
+
+
+
 </body>
+
 </html>
