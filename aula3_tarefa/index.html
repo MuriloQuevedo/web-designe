@@ -11,9 +11,11 @@
     <h1>Acesso</h1>
     <form action="https://www.w3schools.com/action_page.php">
 
+        <!--escolhe uma data-->
         <label for="Data">Data: </label><br>
         <input type="date" id="data" name="data"> <br>
 
+        <!--Insere o nome e senha, podendo já enviar os dados-->
         <label for="Usuário">Usuário: </label><br>
         <input type="text" id="Usuário" name="Usuário"><br>
 
@@ -39,6 +41,7 @@
         <label for="Complemento">Complemento: </label><br>
         <input type="text" id="Complemento" name="Complemento"><br>
 
+        <!--lista de sugestões para preenchimento -->
         <label for="Cidades">Cidade: </label><br>
         <input list="Cidades" name="Cidades"><br>
         <datalist id="Cidades">
@@ -51,6 +54,7 @@
             <option value="Outra">
         </datalist>
 
+        <!--Menu suspenso para selecionar um estado da lista fornecida.-->
         <label for="Estados">Estado: </label><br>
         <select id="Estados" name="Estados">
             <option value="Acre">Acre</option>
@@ -89,6 +93,7 @@
         <h1>Genêro</h1>
         <form action="https://www.w3schools.com/action_page.php">
         
+            <!--escolhe uma única opção entre várias opções-->
             <input type="radio" id="masculino" name="genero" value="Masculino"> Masculino<br>
             <input type="radio" id="feminino" name="genero" value="Feminino"> Feminino<br>
             <input type="radio" id="nao_binario" name="genero" value="Não-Binário"> Não-Binário<br>
@@ -104,6 +109,7 @@
         <form action="https://www.w3schools.com/action_page.php">
 
             <label>
+                <!--seleciona múltiplas opções de cursos.-->
                 <input type="checkbox" id="ADS" name="cursos" value="ADS"> Análise e Desenvolvimento de Sistemas (ADS)<br>
                 <input type="checkbox" id="Gestão de TI" name="cursos" value="Gestão de TI"> Gestão de TI<br>
                 <input type="checkbox" id="Jogos" name="cursos" value="Jogos"> Jogos Digitais<br>
@@ -125,10 +131,6 @@
             <input type="submit" value="Enviar">
 
         </form>
-
-
-
-
 
 </body>
 
