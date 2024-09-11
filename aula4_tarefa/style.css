@@ -86,3 +86,16 @@ img {
 .link-container {
     text-align: center; /* Centraliza o texto (links) dentro deste contêiner */
 }
+h1 {
+    font-size: 48px; /* Tamanho grande para destaque */
+    color: #2c3e50; /* Cor escura para o texto */
+    font-family: 'Georgia', serif; /* Fonte serifada para um toque clássico */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 30px; /* Espaço acima do título */
+    margin-bottom: 30px; /* Espaço abaixo do título */
+    font-weight: bold; /* Negrito para destaque */
+    text-shadow: 1px 1px 2px #bdc3c7; /* Sombra suave para profundidade */
+    background-color: #ecf0f1; /* Cor de fundo leve */
+    padding: 10px; /* Espaço interno ao redor do texto */
+    border-radius: 5px; /* Bordas arredondadas no fundo */
+}
