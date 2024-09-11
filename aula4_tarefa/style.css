@@ -1,105 +1,92 @@
 /* reset */
 * {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
-
 
 /* Seletor por tag */
 p {
-    color: rebeccapurple;
-    font-family: 'Lobster', cursive;
+  color: rebeccapurple;
+  font-family: "Lobster", cursive;
 }
-
 
 /* Seletor por classe */
 .blue {
-    color: blue;
-    background-color: gray;
-    margin-left: 200px;
-    text-align: center;
+  color: blue;
+  background-color: gray;
+  margin-left: 200px;
+  text-align: center;
 }
-
 
 /* Menu */
 nav {
-    background-color: #000000;
-    padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: #000000;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
 }
-
 
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
-
 
 a {
-    text-decoration: none;
-    color: #de2e2e;
+  text-decoration: none;
+  color: #de2e2e;
 }
-
 
 a:hover {
-    color: #de2e2e;
+  color: #de2e2e;
 }
-
-
-
 
 /* Seletor por id */
 #meuId {
-    color: green;
-    text-decoration: none;
+  color: green;
+  text-decoration: none;
 }
-
 
 img {
-    width: 200px;
-    height: 400px;
-    border: 2px solid black;
-    border-radius: 10%;
-    margin: 10px;
+  width: 200px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 10%;
+  margin: 10px;
 }
 
-
-.link{
-    color: blue;
+.link {
+  color: blue;
 }
 .link-container {
-    text-align: center; /* Centraliza o texto (links) dentro deste contêiner */
+  text-align: center; /* Centraliza o texto (links) dentro deste contêiner */
 }
 h1 {
-    font-size: 48px; /* Tamanho grande para destaque */
-    color: #2c3e50; /* Cor escura para o texto */
-    font-family: 'Georgia', serif; /* Fonte diferente */
-    text-align: center; /* Centraliza o texto */
-    margin-top: 30px; /* Espaço acima do título */
-    margin-bottom: 30px; /* Espaço abaixo do título */
-    font-weight: bold; /* Negrito para destaque */
-    text-shadow: 1px 1px 2px #bdc3c7; /* Sombra suave para profundidade */
-    background-color: #ecf0f1; /* Cor de fundo leve */
-    padding: 10px; /* Espaço interno ao redor do texto */
-    border-radius: 5px; /* Bordas arredondadas no fundo */
+  font-size: 48px; /* Tamanho grande para destaque */
+  color: #2c3e50; /* Cor escura para o texto */
+  font-family: "Georgia", serif; /* Fonte diferente */
+  text-align: center; /* Centraliza o texto */
+  margin-top: 30px; /* Espaço acima do título */
+  margin-bottom: 30px; /* Espaço abaixo do título */
+  font-weight: bold; /* Negrito para destaque */
+  text-shadow: 1px 1px 2px #bdc3c7; /* Sombra suave para profundidade */
+  background-color: #ecf0f1; /* Cor de fundo leve */
+  padding: 10px; /* Espaço interno ao redor do texto */
+  border-radius: 5px; /* Bordas arredondadas no fundo */
 }
 body {
-    background-color: rgba(106, 88, 88, 0.708); /* Fundo preto */
+  background-color: rgba(106, 88, 88, 0.708); /* Fundo preto */
 }
 
 .menu-opcoes {
-    list-style: none; /* Remove os marcadores de lista */
-    padding: 0;
-    margin: 0;
-    display: flex; /* Faz os itens do menu ficarem em linha */
-    background-color: #333; /* Fundo escuro para o menu */
-    border-radius: 8px; /* Bordas arredondadas no menu */
-    
+  list-style: none; /* Remove os marcadores de lista */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Faz os itens do menu ficarem em linha */
+  background-color: #333; /* Fundo escuro para o menu */
+  border-radius: 8px; /* Bordas arredondadas no menu */
 }
