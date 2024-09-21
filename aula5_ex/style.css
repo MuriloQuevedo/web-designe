@@ -1,0 +1,183 @@
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.camel {
+  border: solid green 5px;
+}
+
+.cat {
+  border: solid yellow 5px;
+}
+
+.horse {
+  border: solid red 5px;
+}
+
+
+.ex001 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ex002 {
+  display: flex;
+  justify-content: center;
+}
+
+.ex003 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ex004 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ex005 {
+  display: flex;
+  align-items: flex-end;
+  height: 97vh;
+}
+
+.ex006 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+
+.ex007 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 97vh;
+}
+
+.ex008 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.ex009 {
+  display: flex;
+  flex-direction: column;
+}
+
+.ex010 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.ex011 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 97vh;
+}
+
+.ex012 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  height: 97vh;
+}
+
+.ex013 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+  height: 97vh;
+}
+
+.ex014 {
+  display: flex;
+}
+
+.ex014_img {
+  order: 1;
+}
+
+.ex015 {
+  display: flex;
+}
+
+.ex015_img {
+  order: -1;
+}
+
+.ex016 {
+  display: flex;
+  align-items: flex-start;
+  height: 97vh;
+}
+
+.ex016_img {
+  align-self: flex-end;
+}
+
+.ex017 {
+  display: flex;
+  align-items: flex-start;
+  height: 97vh;
+}
+
+.ex017_img {
+  order: 2;
+  align-self: flex-end;
+}
+
+.ex018 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 97vh;
+}
+
+.ex019 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 97vh;
+}
+
+.ex020 {
+  display: flex;
+  flex-flow: column wrap;
+  height: 97vh;
+}
+
+.ex021 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 97vh;
+}
+
+.ex022 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  height: 97vh;
+}
+
+.ex023 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+  height: 97vh;
+}
+
+.ex024 {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: space-between;
+  height: 97vh;
+}
