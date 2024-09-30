@@ -1,120 +1,108 @@
 *{
-    font-family: "Roboto";
+    font-family: "Roboto"; /* Define a fonte padrão para todos os elementos */
 }
 
-body
-{
+body {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 97vh;
+    flex-direction: column; /* Organiza o corpo da página como uma coluna */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    height: 97vh; /* Define a altura da página como 97% da altura da tela */
 }
 
-ul li a
-{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 5px 10px;
-    border-radius: 10px;
-    background-color: rgb(32, 18, 18);
-    
+ul li a {
+    text-decoration: none; /* Remove a sublinhado dos links */
+    color: rgb(255, 255, 255); /* Define a cor do texto como branco */
+    padding: 5px 10px; /* Adiciona espaço ao redor do link */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: rgb(32, 18, 18); /* Define a cor de fundo */
 }
 
-ul li
-{
-    list-style: none;
-    margin: 30px;
+ul li {
+    list-style: none; /* Remove a marcação padrão das listas */
+    margin: 30px; /* Espaçamento ao redor dos itens da lista */
 }
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; /* Remove as margens e preenchimentos padrões */
 }
 
 .conteudo {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
 }
 
 .texto {
     width: 520px;
     height: 330px;
-    margin-top: 160px;
+    margin-top: 160px; /* Adiciona espaçamento superior */
 }
 
 .texto h1 {
-    font-family: 'Red Rose', sans-serif;
-    font-size: 36px;
-    font-weight: 400;
-    color: #091133;
+    font-family: 'Red Rose', sans-serif; /* Usa a fonte 'Red Rose' */
+    font-size: 36px; /* Define o tamanho da fonte */
+    font-weight: 400; /* Define o peso da fonte */
+    color: #091133; /* Define a cor do texto */
 }
 
 .texto p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Usa a fonte 'Roboto' */
     font-size: 16px;
     font-weight: 400;
-    color: #6F7CB2;
-    line-height: 26px;
-    text-align: justify;
-    margin-top: 16px;
+    color: #6F7CB2; /* Cor do parágrafo */
+    line-height: 26px; /* Altura da linha */
+    text-align: justify; /* Justifica o texto */
+    margin-top: 16px; /* Espaçamento superior */
 }
-
 
 .botao {
     display: flex;
     margin-left: 56px;
-    margin-bottom: 270px;
+    margin-bottom: 270px; /* Espaçamento na parte inferior */
 }
 
 .botao a {
-
-    padding: 10px 50px;
-    text-decoration: none;
+    padding: 10px 50px; /* Adiciona espaço interno nos links */
+    text-decoration: none; /* Remove o sublinhado */
     font-size: 16px;
     margin-top: 52px;
 }
 
 .botao .btn-1 {
     font-family: 'roboto', sans-serif;
-    font-weight: 500;
-    background-color: #111B47;
-    color: #fff;
-    border: 2px solid #111B47;
-    margin-right: 15px;
-    border-radius: 2px;
+    font-weight: 500; /* Define o peso da fonte */
+    background-color: #111B47; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    border: 2px solid #111B47; /* Bordas do botão */
+    margin-right: 15px; /* Espaçamento à direita */
+    border-radius: 2px; /* Bordas levemente arredondadas */
 }
 
 .botao .btn-2 {
     font-family: 'roboto', sans-serif;
     font-weight: 500;
-    background-color: transparent;
-    color: #111B47;
-    border: 2px solid #111B47;
-    margin-left: 15px;
+    background-color: transparent; /* Botão transparente */
+    color: #111B47; /* Cor do texto */
+    border: 2px solid #111B47; /* Bordas do botão */
+    margin-left: 15px; /* Espaçamento à esquerda */
 }
 
 .imagem img {
     margin-top: 100px;
-    margin-left: 98px;
+    margin-left: 98px; /* Define a posição da imagem */
 }
 
 .botao a:hover {
-
-    background-color: #fff;
-    color: #111B47;
+    background-color: #fff; /* Muda o fundo para branco ao passar o mouse */
+    color: #111B47; /* Muda a cor do texto ao passar o mouse */
 }
 
-.botao1 {
-    margin-top: 52px;
-}
-
-.botao2 {
-    margin-top: 52px;
+.botao1, .botao2 {
+    margin-top: 52px; /* Espaçamento superior dos botões */
 }
 
 .botao2 a:hover {
-
-    background-color: #111B47;
-    color: #fff;
-
+    background-color: #111B47; /* Muda o fundo ao passar o mouse */
+    color: #fff; /* Muda a cor do texto ao passar o mouse */
 }
