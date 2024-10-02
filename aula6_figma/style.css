@@ -1,0 +1,41 @@
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; /* Ajusta a largura do conteúdo */
+  max-width: 1200px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.texto h1 {
+  font-family: "Red Rose";
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.texto p {
+ font-family: "Roboto";
+ font-size: 16px;
+ font-weight: 400;
+  
+}
+
+.botao{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  
+}
+
+body {
+  font-family: "Roboto";
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}

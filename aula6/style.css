@@ -10,22 +10,9 @@ body {
     height: 97vh; /* Define a altura da página como 97% da altura da tela */
 }
 
-ul li a {
-    text-decoration: none; /* Remove a sublinhado dos links */
-    color: rgb(255, 255, 255); /* Define a cor do texto como branco */
-    padding: 5px 10px; /* Adiciona espaço ao redor do link */
-    border-radius: 10px; /* Bordas arredondadas */
-    background-color: rgb(32, 18, 18); /* Define a cor de fundo */
-}
-
-ul li {
-    list-style: none; /* Remove a marcação padrão das listas */
-    margin: 30px; /* Espaçamento ao redor dos itens da lista */
-}
-
 * {
     margin: 0;
-    padding: 0; /* Remove as margens e preenchimentos padrões */
+    
 }
 
 .conteudo {
@@ -42,12 +29,12 @@ ul li {
 .texto h1 {
     font-family: 'Red Rose', sans-serif; /* Usa a fonte 'Red Rose' */
     font-size: 36px; /* Define o tamanho da fonte */
-    font-weight: 400; /* Define o peso da fonte */
+    font-weight: 400; /* Define a expessura da fonte */
     color: #091133; /* Define a cor do texto */
 }
 
 .texto p {
-    font-family: 'Roboto', sans-serif; /* Usa a fonte 'Roboto' */
+    font-family: 'Roboto'; /* Usa a fonte 'Roboto' */
     font-size: 16px;
     font-weight: 400;
     color: #6F7CB2; /* Cor do parágrafo */
