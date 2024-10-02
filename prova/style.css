@@ -9,13 +9,15 @@ body
     font-family: 'Lato', sans-serif;
 }
 
-main {
+main 
+{
     display: flex;
     margin-top: 108px;
     justify-content: space-evenly;
 }
 
-.donuts img {
+.donuts img 
+{
     width: 302px;
     height: 348px;
 }
@@ -26,7 +28,8 @@ main {
     justify-content: space-between;
 }
 
-.botao img {
+.botao img 
+{
     width: 148px;
     height: 148px;
     margin-top: 80px;
@@ -85,7 +88,8 @@ a {
 
 }
 
-.img-b {
+.img-b 
+{
     margin-top: 48px;
     margin-bottom: 109px;
 }
