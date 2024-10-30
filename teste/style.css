@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: gray;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.botoes button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    background-color: darkgreen;
+}
+.botoes button.active {
+    background-color: rgb(161, 42, 42); /* Cor diferente quando ativo */
+}
