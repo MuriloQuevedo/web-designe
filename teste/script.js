@@ -12,7 +12,7 @@ function alterarParagrafo() {
         : "gray";
 }
 function tocarAudio() {
-    const audio = new Audio("die.wav"); 
+    const audio = new Audio("Die.wav"); 
     audio.play();
 }
 
