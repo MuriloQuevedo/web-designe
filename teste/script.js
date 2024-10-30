@@ -12,7 +12,7 @@ function alterarParagrafo() {
         : "gray";
 }
 function tocarAudio() {
-    const audio = new Audio("die.wav"); // Certifique-se de que o arquivo está no mesmo diretório
+    const audio = new Audio("die.wav"); 
     audio.play();
 }
 
