@@ -1,32 +1,35 @@
-// Obtém o elemento do display para atualizar os valores
-const display = document.getElementById("display");
+// Função para inserir números e operadores no display
+function insert(num) {
+    // Pega o conteúdo atual do display
+    var numero = document.getElementById('display').innerHTML;
+    // Adiciona o número ou operador pressionado ao conteúdo atual do display
+    document.getElementById('display').innerHTML = numero + num;
+}
 
-// Captura todos os botões com a classe 'btn' e os coloca em um array
-const buttons = Array.from(document.getElementsByClassName("btn"));
+// Função para limpar o display
+function clean() {
+    // Define o conteúdo do display como vazio
+    document.getElementById('display').innerHTML = "";
+}
 
-// Variável que armazena a entrada atual do usuário
-let currentInput = '';
+// Função para apagar o último caractere do display
+function back() {
+    // Pega o conteúdo atual do display
+    var resultado = document.getElementById('display').innerHTML;
+    // Atualiza o conteúdo removendo o último caractere
+    document.getElementById('display').innerHTML = resultado.substring(0, resultado.length - 1);
+}
 
-// Adiciona um evento de clique para cada botão
-buttons.forEach(button => {
-    button.addEventListener("click", () => {
-        const value = button.textContent; // Obtém o valor do botão clicado
-
-        // Se o botão for '=', realiza o cálculo
-        if (value === "=") {
-            try {
-                // Usa a função eval para calcular a expressão e converte o resultado em string
-                currentInput = eval(currentInput).toString();
-            } catch {
-                // Se houver erro no cálculo, exibe "Erro"
-                currentInput = "Erro";
-            }
-        } else {
-            // Caso contrário, adiciona o valor do botão à entrada atual
-            currentInput += value;
-        }
-        
-        // Atualiza o display com o valor atual ou '0' se estiver vazio
-        display.textContent = currentInput || "0";
-    });
-});
+// Função para calcular a expressão no display
+function calcular() {
+    // Pega o conteúdo atual do display
+    var resultado = document.getElementById('display').innerHTML;
+    // Verifica se o display não está vazio
+    if (resultado) {
+        // Usa a função eval para avaliar a expressão e mostra o resultado
+        document.getElementById('display').innerHTML = eval(resultado);
+    } else {
+        // Exibe "ERROR" se o display estiver vazio
+        document.getElementById('display').innerHTML = "ERROR";
+    }
+}
