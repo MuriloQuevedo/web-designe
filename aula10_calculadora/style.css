@@ -1,0 +1,46 @@
+/* Centraliza o conteúdo na tela */
+body {
+    display: flex; /* Define o layout como flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do body */
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do body */
+    height: 100vh; /* Define a altura do body como 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão do body */
+    background-color: #f4f4f4; /* Define uma cor de fundo cinza claro para o body */
+}
+
+/* Estiliza o contêiner da calculadora */
+.calculadora {
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    border: 2px solid #333; /* Adiciona uma borda de 2px de espessura com cor preta */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px em todos os lados */
+    background-color: #eee; /* Define a cor de fundo do contêiner como cinza claro */
+    width: 200px; /* Define a largura fixa do contêiner */
+}
+
+/* Estilo do display da calculadora */
+#display {
+    font-size: 2em; /* Aumenta o tamanho da fonte para que os números apareçam maiores */
+    background-color: #333; /* Define o fundo do display como preto */
+    color: #5af; /* Define a cor do texto do display como azul claro */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px ao display */
+    margin-bottom: 10px; /* Adiciona um espaço de 10px abaixo do display */
+    border-radius: 5px; /* Arredonda os cantos do display */
+    text-align: right; /* Alinha o texto à direita dentro do display */
+}
+
+/* Organiza os botões em uma grade */
+.botoes {
+    display: grid; /* Define o layout como uma grade para organizar os botões */
+    grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas de tamanhos iguais (1fr) */
+    gap: 5px; /* Define um espaço de 5px entre os botões */
+}
+
+/* Estilo dos botões */
+.btn {
+    font-size: 1.5em; /* Define o tamanho da fonte dos botões */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px aos botões */
+    background-color: #ccc; /* Define o fundo dos botões como cinza */
+    border: none; /* Remove a borda padrão dos botões */
+    border-radius: 5px; /* Arredonda os cantos dos botões */
+    cursor: pointer; /* Muda o cursor para i
