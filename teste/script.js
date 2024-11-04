@@ -1,6 +1,6 @@
 // Função para alterar o texto do título
 function alterarTitulo() {
-  // Obtém o elemento com o ID "titulo"
+  // Seleciona o elemento HTML que possui o ID "titulo" e armazena na constante 'titulo'
   const titulo = document.getElementById("titulo");
 
   // Verifica o conteúdo do título. Se for "Meu Título", altera para "Título Alterado" e vice-versa
