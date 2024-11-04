@@ -1,95 +1,95 @@
+/* Resetando as margens e o preenchimento de todos os elementos para evitar inconsistências entre navegadores */
 * {
-    margin: 0px;
-    padding: 0px;
-
+  margin: 0px; /* Remove margem de todos os elementos */
+  padding: 0px; /* Remove padding de todos os elementos */
 }
 
-body
-{
-    font-family: 'Lato', sans-serif;
+/* Estilo do corpo da página */
+body {
+  font-family: "Lato", sans-serif; /* Define a fonte padrão como 'Lato' */
 }
 
-main 
-{
-    display: flex;
-    margin-top: 108px;
-    justify-content: space-evenly;
+/* Estilo do contêiner principal */
+main {
+  display: flex; /* Define um contêiner flexível */
+  margin-top: 108px; /* Adiciona espaço acima do main */
+  justify-content: space-evenly; /* Distribui o espaço entre os itens igualmente */
 }
 
-.donuts img 
-{
-    width: 302px;
-    height: 348px;
+/* Imagens dentro do contêiner "donuts" */
+.donuts img {
+  width: 302px; /* Largura das imagens de donuts */
+  height: 348px; /* Altura das imagens de donuts */
 }
 
-.botao
-{
-    display: flex;
-    justify-content: space-between;
+/* Contêiner ".botao" */
+.botao {
+  display: flex; /* Define um contêiner flexível */
+  justify-content: space-between; /* Espaça os botões igualmente dentro do contêiner */
 }
 
-.botao img 
-{
-    width: 148px;
-    height: 148px;
-    margin-top: 80px;
+/* Imagens dentro do contêiner ".botao" */
+.botao img {
+  width: 148px; /* Define a largura das imagens dos botões */
+  height: 148px; /* Define a altura das imagens dos botões */
+  margin-top: 80px; /* Adiciona espaço acima das imagens dos botões */
 }
 
-h1
-{
-    font-weight: 600;
-    font-size: 64px;
-    text-align: center;
-    line-height: 77px;
-    color: #333333;
-    width: 495px;
-    height: 154px;
+/* Título principal (h1) */
+h1 {
+  font-weight: 600; /* Define o peso da fonte como 600 (negrito) */
+  font-size: 64px; /* Define o tamanho da fonte do título */
+  text-align: center; /* Centraliza o texto */
+  line-height: 77px; /* Ajusta o espaçamento entre as linhas */
+  color: #333333; /* Define a cor do texto como cinza escuro */
+  width: 495px; /* Largura do contêiner do título */
+  height: 154px; /* Altura do contêiner do título */
 }
 
-p
-{
-    font-weight: 400;
-    font-size: 24px;
-    text-align: justify;
-    line-height: 32px;
-    color: #333333;
-    width: 487px;
-    margin-top: 24px;
+/* Parágrafos (p) */
+p {
+  font-weight: 400; /* Peso da fonte normal */
+  font-size: 24px; /* Tamanho da fonte */
+  text-align: justify; /* Justifica o texto */
+  line-height: 32px; /* Espaçamento entre linhas */
+  color: #333333; /* Cor do texto como cinza escuro */
+  width: 487px; /* Define a largura do parágrafo */
+  margin-top: 24px; /* Adiciona espaço acima do parágrafo */
 }
 
-.donuts
-{
-    display: flex;
-    flex-direction: column;
-    margin-top: 63px;
+/* Contêiner ".donuts" */
+.donuts {
+  display: flex; /* Define um contêiner flexível */
+  flex-direction: column; /* Organiza os itens em coluna */
+  margin-top: 63px; /* Adiciona espaço acima do contêiner */
 }
 
+/* Links estilizados como botões */
 a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    background-color: #333333;
-    border-radius: 40px;
-    width: 222px;
-    height: 66px;
-    color: white;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 18px;
-    margin-top: 33px;
+  display: flex; /* Define um contêiner flexível */
+  justify-content: center; /* Centraliza o conteúdo do link */
+  align-items: center; /* Alinha verticalmente o conteúdo */
+  text-decoration: none; /* Remove sublinhado dos links */
+  background-color: #333333; /* Cor de fundo cinza escuro */
+  border-radius: 40px; /* Arredonda as bordas */
+  width: 222px; /* Largura do botão */
+  height: 66px; /* Altura do botão */
+  color: white; /* Define a cor do texto como branco */
+  font-weight: 500; /* Define o peso da fonte */
+  font-size: 22px; /* Tamanho da fonte */
+  line-height: 18px; /* Espaçamento entre as linhas */
+  margin-top: 33px; /* Adiciona espaço acima do botão */
 }
 
-.link
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 33px;
-
+/* Contêiner ".link" */
+.link {
+  display: flex; /* Define um contêiner flexível */
+  justify-content: center; /* Centraliza o conteúdo */
+  margin-top: 33px; /* Adiciona espaço acima do contêiner */
 }
 
-.img-parte_de_baixo
-{
-    margin-top: 48px;
-    margin-bottom: 109px;
+/* Imagem na parte inferior */
+.img-parte_de_baixo {
+  margin-top: 48px; /* Adiciona espaço acima da imagem */
+  margin-bottom: 109px; /* Adiciona espaço abaixo da imagem */
 }
