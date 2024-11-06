@@ -23,7 +23,7 @@
     </nav>
 
     <div class="container my-4">
-        <form class="text-center" onsubmit="addCard(event)">
+        <form class="text-center" onsubmit="Card(event)">
             <div class="form-group">
                 <input type="text" class="form-control" id="titulo" placeholder="Título" required>
             </div>
@@ -32,9 +32,9 @@
     </div>
 
     <div class="container">
-        <div class="row" id="card-container"></div>
+        <div class="row" id="cards"></div>
         <div class="text-center my-4">
-            <button class="btn btn-danger" onclick="removeAllCards()">APAGAR TODOS</button>
+            <button class="btn btn-danger" onclick="limpar()">APAGAR TODOS</button>
         </div>
     </div>
 
