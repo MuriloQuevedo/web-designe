@@ -1,0 +1,65 @@
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: #343a40;
+    /* Fundo escuro para a navbar */
+}
+
+.navbar .nav-link {
+    color: #ccc;
+    /* Cor dos links da navbar */
+}
+
+.navbar .nav-link:hover {
+    color: #fff;
+    /* Cor dos links ao passar o mouse */
+}
+
+/* Estilo para o campo de busca */
+.search-dark {
+    background-color: #333;
+    /* Fundo escuro para o campo de busca */
+    color: #fff;
+    /* Cor do texto no campo de busca */
+    border-color: #333;
+    /* Cor da borda */
+}
+
+.search-dark::placeholder {
+    color: #bbb;
+    /* Cor do texto do placeholder */
+}
+
+/* Estilo para o formulário de cadastro */
+.container form {
+    margin: 20px 0;
+}
+
+/* Estilo para os cards */
+.card {
+    margin: 15px;
+    border: 1px solid #ddd;
+}
+
+.card-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card .btn-danger {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilo para o botão "APAGAR TODOS" */
+.container .text-center .btn-danger {
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}

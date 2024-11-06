@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Bootstrap</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Bio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    
+    <div class="container my-4">
+        <form class="text-center" onsubmit="addCard(event)">
+            <div class="form-group">
+                <input type="text" class="form-control" id="titulo" placeholder="Título" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+
+    
+    <div class="container">
+        <div class="row" id="card-container">
+            
+        </div>
+
+        
+        <div class="text-center my-4">
+            <button class="btn btn-danger" onclick="removeAllCards()">APAGAR TODOS</button>
+        </div>
+    </div>
+
+    
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+        <p>Copyright Facens©2024 - Webdesign - Luis e Murilo</p>
+    </footer>
+
+    <script>
+
+        function addCard(event) {
+            event.preventDefault();
+            const titulo = document.getElementById('titulo').value;
+            const cardContainer = document.getElementById('card-container');
+
+
+            const colDiv = document.createElement('div');
+            colDiv.className = 'col-md-3';
+
+            colDiv.innerHTML = `
+        <div class="card mb-4">
+          <img src="https://picsum.photos/150" class="card-img-top" alt="Imagem do Card">
+          <div class="card-body text-center">
+            <h5 class="card-title">${titulo}</h5>
+            <button class="btn btn-danger" onclick="removeCard(this)">Apagar</button>
+          </div>
+        </div>
+      `;
+
+            cardContainer.appendChild(colDiv);
+
+
+            document.getElementById('titulo').value = '';
+        }
+
+
+        function removeCard(button) {
+            button.closest('.col-md-3').remove();
+        }
+
+
+        function removeAllCards() {
+            const cardContainer = document.getElementById('card-container');
+            cardContainer.innerHTML = '';
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
