@@ -18,7 +18,7 @@ function Card(event) {
     <img src="${imagemalaatoria()}" class="card-img-top" alt="Imagem do Card">
     <div class="card-body text-center">
       <h5 class="card-title">${titulo}</h5>
-      <button class="btn btn-danger" onclick="removeCard(this)">Apagar</button>
+      <button class="btn btn-danger" onclick="remover()">Apagar</button>
     </div>
   </div>
 `;
@@ -30,6 +30,10 @@ function Card(event) {
 }
 
 function limpar(button) {
+  button.closest('.col-md-3').remove();
+}
+
+function remover(button) {
   button.closest('.col-md-3').remove();
 }
 
