@@ -28,3 +28,7 @@ function validaLogin() {
         document.querySelector('.loginInvalid').innerHTML = 'Login ou senha inválidos!';
     }
 }
+
+
+
+
